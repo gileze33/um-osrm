@@ -1,4 +1,4 @@
-execute 'yum update -y'
+execute 'apt-get -y update'
 
 include_recipe 'osrm::install_git'
 
