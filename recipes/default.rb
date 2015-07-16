@@ -1,3 +1,5 @@
+execute 'yum update -y'
+
 include_recipe 'osrm::install_git'
 
 Chef::Log.info("About to run osrm_map for GB")
